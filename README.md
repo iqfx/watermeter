@@ -18,11 +18,11 @@ Software required: Homeassistant, ESPHome
 Wire the proximity sensor so that it matches the scheme in the table.
 
 Simplified table
-| Wire | Terminal |
-|---|---|
-| Blue | Ground |
-| Brown | Live, 5v. |
-| Black | GPIO |
+| Wire | Terminal | Mark on ESP32 |
+|---|---|---|
+| Blue | Ground | GND |
+| Brown | Live, 5v. | VIN |
+| Black | GPIO | D5 |
 
 I you connect it to a different GPIO pin, make sure to update the sensors.yaml with your pin.
 
